@@ -1,0 +1,1 @@
+cmd_/home/wankang/driver/hellodev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/wankang/driver/hellodev.ko /home/wankang/driver/hellodev.o /home/wankang/driver/hellodev.mod.o;  true
