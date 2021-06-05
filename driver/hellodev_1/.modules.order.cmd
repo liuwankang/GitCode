@@ -1,0 +1,1 @@
+cmd_/home/wankang/GitCode/driver/hellodev_1/modules.order := {   echo /home/wankang/GitCode/driver/hellodev_1/hellodev.ko; :; } | awk '!x[$$0]++' - > /home/wankang/GitCode/driver/hellodev_1/modules.order

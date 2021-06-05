@@ -1,0 +1,1 @@
+cmd_/home/wankang/GitCode/driver/hellodev_1/hellodev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/wankang/GitCode/driver/hellodev_1/hellodev.ko /home/wankang/GitCode/driver/hellodev_1/hellodev.o /home/wankang/GitCode/driver/hellodev_1/hellodev.mod.o;  true
